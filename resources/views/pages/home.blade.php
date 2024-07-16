@@ -4,6 +4,6 @@
 
 @section('main-content')
     <h1>
-
+    --> CONTENT GOES HERE <---
     </h1>
 @endsection
