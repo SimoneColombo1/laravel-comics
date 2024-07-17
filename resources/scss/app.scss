@@ -40,6 +40,38 @@ main {
     background-color: #1c1c1c;
     color: white;
     padding: 6rem;
+    display: flex;
+
+
+    .jumbo {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 10rem;
+
+        .card {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: #1c1c1c;
+            color: white;
+            border: 0;
+        }
+
+        div.card-content {
+            display: flex;
+            flex-direction: column;
+            width: 16rem;
+
+        }
+
+        img {
+            width: 9rem;
+            height: 11rem;
+        }
+    }
 }
 
 footer {

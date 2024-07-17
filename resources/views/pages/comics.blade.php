@@ -8,9 +8,9 @@
 <section class="background"></section>
 
 <section class="jumbo">
-<div>
+<div class="card">
     @foreach ($comics as $comic)
-    <div>
+    <div class="card-content">
        <img src="{{$comic['thumb']}}">
        <span>
         {{$comic['title']}}
